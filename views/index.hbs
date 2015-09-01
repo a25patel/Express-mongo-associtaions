@@ -1,2 +1,10 @@
-<h1>{{title}}</h1>
-<p>Welcome to {{title}}</p>
+<h1>The People</h1>
+
+ {{#each people}}
+  <p>
+    <b>{{name}}</b>
+    <p>
+      {{address.line1}}
+    </p>
+  </p>
+{{/each}}
