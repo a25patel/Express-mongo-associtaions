@@ -22,6 +22,3 @@ var information = require('../lib/mongo.js')
 //   });
 
 module.exports = router;
-
-
-// Work through mongo-associations one more time and then work through this! 
